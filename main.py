@@ -10,7 +10,7 @@ import os
 pygame.mixer.init()
 
 # Define the path to the sounds folder
-sound_folder = "Sounds"
+sound_folder = "sounds"
 
 # Load sound effects from the sounds folder
 sound_meow = pygame.mixer.Sound(os.path.join(sound_folder, "meow.wav"))
