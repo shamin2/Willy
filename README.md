@@ -21,6 +21,58 @@ Willy the Virtual Cat is an interactive application created to simulate various 
 - **`pet_state.json`**: Stores the current state of Willy, including her health, happiness, and other attributes.
 - **`Sounds/`**: Contains all the sound files used in the application, enhancing the gameplay with audio cues.
 
+## 🐱 How to Fork and Set Up the Game
+
+If you're interested in setting up Willy the Virtual Cat and play, you can fork the repository and run the game on your local machine. Here's how to do it:
+
+1. **Fork the Repository**
+   - Navigate to the GitHub page of the repository.
+   - In the top-right corner of the page, click the "Fork" button. This creates a copy of the repository in your own GitHub account.
+
+2. **Clone the Forked Repository**
+   - Once forked, go to your GitHub account, open the forked repository, and click on "Code" to find the URL to clone.
+   - Open your terminal or command prompt and run the following command:
+     ```
+     git clone [URL of the forked repository]
+     ```
+   - Replace `[URL of the forked repository]` with the URL you copied.
+
+3. **Set Up the Virtual Environment**
+   - Navigate into the cloned directory:
+     ```
+     cd willy-the-virtual-cat
+     ```
+   - Create a virtual environment:
+     ```
+     python -m venv venv
+     ```
+   - Activate the virtual environment:
+     - On Windows:
+       ```
+       venv\Scripts\activate
+       ```
+     - On macOS and Linux:
+       ```
+       source venv/bin/activate
+       ```
+
+4. **Install Dependencies**
+   - Install all required packages:
+     ```
+     pip install -r requirements.txt
+     ```
+
+5. **Run the Game**
+   - Start the game by running:
+     ```
+     python main.py
+     ```
+   - Follow the on-screen instructions to interact with Willy.
+
+By following these steps, you can set up and start playing with Willy on your local system. Enjoy exploring and potentially enhancing Willy's virtual world!
+
+
+
 ## 🐱 How to Play
 
 - **Feed Willy**: Click on the "Feed" button to decrease her hunger.
